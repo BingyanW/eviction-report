@@ -1,6 +1,6 @@
 # Analysis script: compute values and create graphics of interest
-install.packages("tidyverse")
-install.packages("ggmap")
+# install.packages("tidyverse")
+# install.packages("ggmap")
 library("dplyr")
 library("ggplot2")
 library("lubridate")
@@ -29,6 +29,8 @@ by_month <- evictions %>%
   mutate(month = floor_date(date, unit = "month")) %>%
   group_by(month) %>%
   count()
+
+# install.packages("knitr")
 
 # Store plot in a variable
 month_plot <- ggplot(data = by_month) +

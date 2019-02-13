@@ -7,3 +7,5 @@ This section visualizes [eviction notice data](https://catalog.data.gov/dataset/
 
 ## Instructions
 Follow the instructions in the `analysis.R` file, then build a report by creating and compiling an `index.Rmd` file. Once you complete and push your code, you should be able to view your report at `YOUR-USER-NAME.github.io/eviction-report`.
+
+BingyanW.github.io/eviction-report
